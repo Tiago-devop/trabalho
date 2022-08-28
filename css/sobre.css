@@ -90,9 +90,12 @@ h2 {
     5px 5px 15px 5px rgba(0, 0, 0, 0);
 }
 
-svg {
-  height: 50px;
-  width: 130px;
+button {
+  font-size: 36px;
+  color: white;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
 }
 
 footer {
@@ -100,11 +103,16 @@ footer {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  background-color: rgb(93, 166, 34);
+  background-color: rgba(93, 166, 34, 0.8);
 }
 
 footer > div {
   margin: 0 10px;
+}
+
+svg {
+  height: 50px;
+  width: 130px;
 }
 
 .sobre-text {
