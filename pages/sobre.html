@@ -13,6 +13,11 @@
   </head>
 
   <body>
+    <div class="propaganda" onclick="addRemover()">
+      <img src="https://m.media-amazon.com/images/I/71c95y6wHDL._AC_SL1500_.jpg" alt="secador">
+      <h3>Super Secador</h3>
+      <p>Compre aqui</p>
+    </div>
     <div class="container">
       <nav class="links-nav" aria-label="links-nav">
         <ul>
@@ -129,5 +134,11 @@
         </div>
       </footer>
     </div>
+    <script>
+      const ads = document.querySelector(".propaganda");
+      function addRemover() {
+        ads.classList.add("addOff");
+      }
+    </script>
   </body>
 </html>

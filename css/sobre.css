@@ -123,3 +123,30 @@ svg {
   font-weight: 500;
   letter-spacing: 2px;
 }
+
+.propaganda {
+  position: fixed;
+  right: 30px;
+  top: 30px;
+  width: 200px;
+  height:300px;
+  border-radius: 20px;
+  background-color: white;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ cursor: pointer;
+}
+
+.propaganda > img {
+  width:150px;
+  margin-top: 10px;
+  border-radius: 50%;
+  border: 1px solid black;
+  object-fit: cover;
+}
+
+.addOff {
+  display: none;
+}
